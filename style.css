@@ -1,0 +1,496 @@
+
+
+body {
+  background-color: rgb(217, 218, 219);
+  font-family: Arial, sans-serif;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
+
+.container {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0px;
+  gap: 30rem;
+  z-index: 1000;
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.c {
+  display: flex;
+
+}
+
+.c img {
+  height: 40px;
+  margin: 0rem;
+}
+
+.inp {
+  /* padding-left: 8rem;
+  border: none;
+  height: 45px;
+  width: 550px;
+  border-radius: 8px;
+
+  outline: none;
+  font-size: 24px;
+  background-color: rgb(242, 247, 245); */
+  flex: 1;
+  /* responsive width */
+  max-width: 550px;
+  /* don’t exceed desktop size */
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  padding-left: 2.5rem;
+  font-size: 1rem;
+  background-color: rgb(242, 247, 245);
+}
+
+.search-wrapper {
+
+  display: flex;
+  align-items: center;
+}
+
+.search-wrapper i {
+
+  left: 10px;
+  color: rgb(190, 179, 179);
+  font-size: 22px;
+}
+
+.inp::placeholder {
+  color: rgb(190, 179, 179);
+  font-size: 22px;
+}
+
+.p {
+  display: flex;
+  align-items: center;
+
+
+  /* margin-left: 25%; */
+}
+
+
+.login button {
+  border: none;
+  background: transparent;
+
+  color: #000;
+
+  width: 90px;
+  height: 45px;
+
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login i {
+
+
+  color: rgb(190, 179, 179);
+  font-size: 22px;
+
+}
+
+.cart {
+  display: flex;
+  padding: 20px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.cart i {
+  color: rgb(190, 179, 179);
+  font-size: 22px;
+
+}
+
+.cart span {
+  font-size: 16px;
+}
+
+.become {
+  display: flex;
+  padding: 20px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.become i {
+  left: 10px;
+  color: rgb(190, 179, 179);
+  font-size: 22px;
+}
+
+.dote {
+  left: 10px;
+  color: rgb(190, 179, 179);
+  font-size: 22px;
+}
+
+
+
+
+/* banner start */
+.banner-layout {
+  display: flex;
+  margin-top: 100px;
+  background-color: #fff;
+  border-radius: 1em;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  height: 70vh;
+  width: 90%;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
+.bannerimg {
+  height: 30vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+
+/* banner end */
+
+/* layout start */
+.layout1 {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  background-color: #fff;
+  padding: 20px;
+  justify-content: center;
+  height: 90vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 2em;
+  border-radius: 1em;
+}
+
+.main-lay {
+  display: flex;
+  width: 100%;
+  border-radius: 1em;
+  justify-self: center;
+  gap: 2rem;
+}
+
+.one {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+
+}
+
+.one img {
+
+  height: 50%;
+  /* You can adjust as needed */
+  width: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.two img {
+  width: 300px;
+  flex: 1;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.para-layout {
+  display: grid;
+  gap: 1em;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  object-fit: fill;
+}
+
+.para-layout p {
+
+  align-items: center;
+}
+
+.p1 {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+/* layout end */
+
+/* layout2 start */
+
+.main-layout2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  width: 90%;
+  margin: 30px auto;
+
+}
+
+.layout-2 {
+
+  background-color: #fff;
+  height: 80vh;
+  width: 100%;
+  box-sizing: border-box;
+
+
+}
+
+.lay-main-header {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto 30px;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.lay-main-header div {
+  width: 30px;
+  /* Set the width of the circle */
+  height: 30px;
+  color: white;
+  border-radius: 50%;
+  /* Makes it a circle */
+  background-color: #1149b1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f7f5f5;
+  /* Icon color */
+  font-size: 15px;
+}
+
+.lay-img9 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.lay2-header {
+  font-size: 1.5rem;
+}
+
+.main-image {
+  display: grid;
+  grid-template-columns: repeat(2, 260px);
+  object-fit: cover;
+  gap: .1em;
+  font-size: 20px;
+
+}
+
+
+.image {
+  display: grid;
+  margin-left: 20px;
+  margin-right: auto;
+  width: 260px;
+  height: 330px;
+  border: 1px solid #e9dddd;
+
+}
+
+.image img {
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+  height: 230px;
+  object-fit: cover;
+  box-sizing: border-box;
+  align-items: stretch;
+
+}
+
+.title-dis {
+  color: rgb(84, 204, 84);
+}
+
+.image p {
+  padding: 0%;
+  margin: 0;
+  padding-left: 10px;
+}
+
+/* lay-2 ends */
+
+/* Footer Start */
+
+.main-footer {
+  display: grid;
+  grid-template-columns: repeat(6, 250px);
+  font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+  height: 400px;
+  width: 100%;
+  background-color: #18191a;
+  margin-top: 5rem;
+  align-items: start;
+  padding-top: 3rem;
+}
+
+
+.para-footer {
+  display: grid;
+  color: #fff;
+  margin-left: 7rem;
+}
+
+.p4-title {
+  color: rgba(211, 211, 211, 0.151);
+  font-size: 15px;
+  padding-bottom: 1rem;
+}
+
+.para-footer p {
+  font-size: 15px;
+}
+
+
+
+.main-para2 {
+
+  display: grid;
+  border-left: 1px solid #5a606e;
+  grid-template-columns: repeat(2, 1fr);
+  width: 500px;
+  margin-left: 250px;
+  gap: 3em;
+
+}
+
+.para-footer2 {
+  display: grid;
+  color: #fff;
+  padding-left: 32px;
+}
+
+.para-footer2 p {
+  font-size: 13px;
+}
+
+.social {
+  margin-top: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons i {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* Tablet */
+@media (max-width: 1290px) {
+  .container {
+    gap: 12rem;
+    padding: 0 1rem;
+    width: auto;
+  }
+
+  .inp {
+    max-width: 350px;
+    font-size: 19px;
+  }
+
+
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .container {
+
+    /* make children fill width */
+    height: auto;
+    padding: 1rem;
+    gap: 12rem;
+  }
+  .c img{
+
+    height: 90px;
+    width: auto;
+  }
+  .search-wrapper i , input{
+    font-size: 3rem;
+  }
+
+  .inp {
+    width: 100%;
+  
+  }
+
+  .cart span,
+  .become span,
+  .login button {
+
+    display: none;
+
+  }
+  .p{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .cart i,
+  .become i,
+  .login i,
+  .dote i {
+
+    font-size: 3rem;
+   
+   
+
+  }
+}
+
+
+@media (max-width: 930px) {
+  .layout1 {
+    flex-direction: column;
+    height: auto
+  }
+}
