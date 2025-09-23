@@ -1,7 +1,8 @@
-html,body {
+html,
+body {
   background-color: rgb(217, 218, 219);
   font-family: Arial, sans-serif;
- 
+
   width: 100%;
   overflow-x: hidden;
 }
@@ -439,7 +440,7 @@ html,body {
   .container {
     gap: 12rem;
     padding: 0 1rem;
- 
+
   }
 
   .inp {
@@ -506,9 +507,37 @@ html,body {
 
     font-size: 3rem;
 
-
-
   }
+
+  .main-lay {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+
+  .one {
+  
+   flex-direction: column;
+
+
+
+  }     
+
+  .main-layout2{
+   grid-template-columns: 1fr;
+   justify-content: center;
+   align-items: center;
+   height:auto;
+  }
+
+  .main-footer{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+  }
+
+  
 }
-
-
