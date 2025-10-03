@@ -32,6 +32,10 @@ body {
   justify-content: center;
 }
 
+.dote{
+  display: none;
+}
+
 .c {
   display: flex;
   gap: 2rem
@@ -627,5 +631,28 @@ gap: 4rem;
 
   }
 
+
+}
+
+@media (max-width: 500px) {
+
+
+  nav .container{
+    width: 500px;
+  }
+  
+.c {
+  display: block;
+
+}
+
+  .dote{
+    display: block;
+  }
+  .cart i,
+  .become i,
+  .login i {
+    display: none; 
+  }
 
 }
